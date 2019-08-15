@@ -15,6 +15,8 @@
 		2C1B61EE2305378C00577476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B61ED2305378C00577476 /* main.m */; };
 		2C1B61F82305378C00577476 /* XMMethodFilterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B61F72305378C00577476 /* XMMethodFilterTests.m */; };
 		2C1B62032305378C00577476 /* XMMethodFilterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B62022305378C00577476 /* XMMethodFilterUITests.m */; };
+		2C1B6214230537B700577476 /* MyFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B6212230537B700577476 /* MyFunc.m */; };
+		2C1B6215230537B700577476 /* MRClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1B6213230537B700577476 /* MRClassMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2C1B61FE2305378C00577476 /* XMMethodFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMMethodFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1B62022305378C00577476 /* XMMethodFilterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMMethodFilterUITests.m; sourceTree = "<group>"; };
 		2C1B62042305378C00577476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1B6210230537B700577476 /* MRClassMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRClassMethod.h; sourceTree = "<group>"; };
+		2C1B6211230537B700577476 /* MyFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFunc.h; sourceTree = "<group>"; };
+		2C1B6212230537B700577476 /* MyFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFunc.m; sourceTree = "<group>"; };
+		2C1B6213230537B700577476 /* MRClassMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRClassMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2C1B61DF2305378900577476 /* AppDelegate.m */,
 				2C1B61E12305378900577476 /* ViewController.h */,
 				2C1B61E22305378900577476 /* ViewController.m */,
+				2C1B6210230537B700577476 /* MRClassMethod.h */,
+				2C1B6213230537B700577476 /* MRClassMethod.m */,
+				2C1B6211230537B700577476 /* MyFunc.h */,
+				2C1B6212230537B700577476 /* MyFunc.m */,
 				2C1B61E42305378900577476 /* Main.storyboard */,
 				2C1B61E72305378C00577476 /* Assets.xcassets */,
 				2C1B61E92305378C00577476 /* LaunchScreen.storyboard */,
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1B6215230537B700577476 /* MRClassMethod.m in Sources */,
 				2C1B61E32305378900577476 /* ViewController.m in Sources */,
+				2C1B6214230537B700577476 /* MyFunc.m in Sources */,
 				2C1B61EE2305378C00577476 /* main.m in Sources */,
 				2C1B61E02305378900577476 /* AppDelegate.m in Sources */,
 			);
